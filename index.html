@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>You found it — Randall's London Archive</title>
+<meta name="description" content="Randall's London Archive. Edition No. 1 — The Allies.">
+<meta property="og:title" content="You found it — Randall's London Archive">
+<meta property="og:description" content="Edition No. 1 — The Allies. Bond Street, London.">
+<meta property="og:image" content="assets/hero.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0a0a0b;
+    --ink-2:#111113;
+    --paper:#efe9de;
+    --muted:#9a9287;
+    --bronze:#b4884f;
+    --hair:rgba(239,233,222,.14);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--ink);color:var(--paper);}
+  body{
+    font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-weight:300;line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:0 28px}
+  .serif{font-family:'Cormorant Garamond',Georgia,'Times New Roman',serif;font-weight:300}
+
+  /* hero */
+  .hero{position:relative;height:78vh;min-height:480px;overflow:hidden}
+  .hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 42%;
+            filter:saturate(.86) contrast(1.04) brightness(.92)}
+  .hero .veil{position:absolute;inset:0;background:
+     linear-gradient(180deg,rgba(10,10,11,.72) 0%,rgba(10,10,11,.18) 34%,rgba(10,10,11,.55) 74%,var(--ink) 100%)}
+  .hero .top{position:absolute;top:0;left:0;right:0;padding:26px 28px;display:flex;justify-content:space-between;
+             font-size:10.5px;letter-spacing:.26em;text-transform:uppercase;color:rgba(239,233,222,.78)}
+  .hero .top{background:linear-gradient(180deg,rgba(10,10,11,.62) 0%,rgba(10,10,11,.28) 60%,transparent 100%);
+             padding-bottom:52px;text-shadow:0 1px 10px rgba(0,0,0,.8)}
+  .hero .top .no{color:#c99a5b}
+  .hero .lede{position:absolute;left:0;right:0;bottom:0;padding:0 28px 34px}
+  .hero .lede .inner{max-width:760px;margin:0 auto}
+  .hero .lede{background:linear-gradient(0deg,rgba(10,10,11,.88) 0%,rgba(10,10,11,.55) 55%,transparent 100%);
+              padding-top:70px}
+
+  h1{font-family:'Cormorant Garamond',Georgia,serif;font-weight:300;font-size:clamp(38px,7vw,66px);
+     line-height:1.02;letter-spacing:-.01em;margin:0 0 14px;text-shadow:0 2px 34px rgba(0,0,0,.65)}
+  .sub{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:#cd9f60;margin:0 0 18px;
+       text-shadow:0 1px 14px rgba(0,0,0,.9)}
+
+  section{padding:54px 0}
+  p{margin:0 0 18px;font-size:16.5px;color:#ded7cb}
+  p.big{font-size:19px;color:var(--paper)}
+  .rule{height:1px;background:var(--hair);margin:44px 0}
+  .rule.short{width:56px;background:var(--bronze);margin:0 0 26px}
+
+  .kicker{font-size:10.5px;letter-spacing:.28em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}
+
+  /* tiers */
+  .tier{display:flex;justify-content:space-between;align-items:baseline;gap:18px;
+        padding:19px 0;border-bottom:1px solid var(--hair);text-decoration:none;color:inherit;transition:opacity .2s}
+  .tier:hover{opacity:.75}
+  .tier .name{font-family:'Cormorant Garamond',Georgia,serif;font-size:23px;font-weight:400;line-height:1.2}
+  .tier .desc{display:block;font-size:12.5px;color:var(--muted);letter-spacing:.02em;margin-top:5px;font-family:'Inter',sans-serif}
+  .tier .price{font-size:14px;color:var(--bronze);white-space:nowrap;letter-spacing:.06em}
+  .tier.future{pointer-events:none;opacity:.62}
+  .tier .price .soon{color:var(--muted);font-size:11px;letter-spacing:.18em;text-transform:uppercase}
+
+  .cta{display:inline-block;margin:8px 0 0;padding:17px 34px;border:1px solid var(--bronze);color:var(--bronze);
+       text-decoration:none;font-size:11px;letter-spacing:.26em;text-transform:uppercase;transition:.2s}
+  .cta:hover{background:var(--bronze);color:#0a0a0b}
+
+  .note{font-size:13px;color:var(--muted);line-height:1.7}
+  .note strong{color:#cdc5b8;font-weight:400}
+
+  footer{border-top:1px solid var(--hair);padding:34px 0 60px;margin-top:30px}
+  footer p{font-size:11.5px;color:#786f64;line-height:1.8;margin:0 0 10px}
+
+  .plate{margin:0 0 8px}
+  .plate img{width:100%;height:auto;display:block}
+  .plate figcaption{font-size:11.5px;color:var(--muted);letter-spacing:.04em;margin-top:10px}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <img src="assets/hero.jpg" alt="The bronze of Churchill and Roosevelt in the air above Bond Street">
+  <div class="veil"></div>
+  <div class="top">
+    <span>Randall&rsquo;s London Archive</span>
+    <span class="no">Edition No. 1 &middot; 050</span>
+  </div>
+  <div class="lede"><div class="inner">
+    <p class="sub">The Allies &middot; Bond Street, London</p>
+    <h1>You found it.</h1>
+  </div></div>
+</div>
+
+<div class="wrap">
+
+  <section>
+    <div class="rule short"></div>
+    <p class="big">Most people walk past the bench without looking up. You stopped, and then you went looking for whatever the code was hiding. That puts you in a very small group, and this page exists for that group.</p>
+    <p>In May 2026 the bronze of Churchill and Roosevelt came off its plinth on New Bond Street and was taken away into storage while the street was rebuilt around it. I was on the pavement with a camera, as a passer-by, not a picture desk. Fourteen frames of a morning that happened once.</p>
+    <p>This is the first edition of the archive. There will be others.</p>
+  </section>
+
+  <div class="rule"></div>
+
+  <section>
+    <p class="kicker">What is available</p>
+
+    <a class="tier" href="https://hopwoodian8.gumroad.com/l/the-allies-numbers-1-10">
+      <span><span class="name">Numbers 1 to 10</span>
+      <span class="desc">The first ten of the signed edition. When they are gone, the tier closes.</span></span>
+      <span class="price">&pound;465</span>
+    </a>
+
+    <a class="tier" href="https://hopwoodian8.gumroad.com/l/the-allies-collectors-set">
+      <span><span class="name">The Collector&rsquo;s Set</span>
+      <span class="desc">The print, all fourteen plates, the booklet, a numbered certificate.</span></span>
+      <span class="price">&pound;259</span>
+    </a>
+
+    <a class="tier" href="https://hopwoodian8.gumroad.com/l/the-allies-a3-print">
+      <span><span class="name">The A3 Print</span>
+      <span class="desc">Signed and numbered, edition of fifty, on cotton rag. Choose your plate.</span></span>
+      <span class="price">&pound;179</span>
+    </a>
+
+    <a class="tier" href="https://hopwoodian8.gumroad.com/l/the-allies-plates">
+      <span><span class="name">Fourteen Plates</span>
+      <span class="desc">The full colour set, 4096&nbsp;px masters, with the booklet and certificate.</span></span>
+      <span class="price">&pound;29</span>
+    </a>
+
+    <a class="tier" href="https://hopwoodian8.gumroad.com/l/the-allies-monochrome">
+      <span><span class="name">The Monochrome Edition</span>
+      <span class="desc">The same fourteen plates in silver, printed to hold the bronze.</span></span>
+      <span class="price">&pound;19</span>
+    </a>
+
+    <div class="tier future">
+      <span><span class="name">The Book</span>
+      <span class="desc">The fourteen plates in sequence, with the history of the bench. In production.</span></span>
+      <span class="price"><span class="soon">Soon</span></span>
+    </div>
+
+    <div style="margin-top:34px">
+      <a class="cta" href="https://hopwoodian8.gumroad.com">Enter the archive</a>
+    </div>
+  </section>
+
+  <div class="rule"></div>
+
+  <section>
+    <p class="kicker">A word on the numbers</p>
+    <p>Fifty prints are signed and numbered. That is the edition, and it does not get reprinted. The first ten carry a lower number on the certificate, which is why they are priced apart from the rest.</p>
+    <p class="note">Each print is made to order and posted rolled, with postage included in the UK. A certificate of authenticity is numbered to match the print. Every frame in the archive has the faces of the site workers obscured &mdash; the bronze faces are never touched.</p>
+  </section>
+
+  <figure class="plate">
+    <img src="assets/bench.jpg" alt="Churchill and Roosevelt on the bench, slung and ready to travel">
+    <figcaption>Two old friends. Bond Street, May 2026.</figcaption>
+  </figure>
+
+  <section>
+    <p class="kicker">What happens next</p>
+    <p>One edition a month, found the same way you found this one. If you would rather be told, follow the archive and it will reach you first.</p>
+    <div style="margin-top:26px">
+      <a class="cta" href="https://hopwoodian8.gumroad.com/subscribe">Follow the archive</a>
+    </div>
+  </section>
+
+  <figure class="plate">
+    <img src="assets/away.jpg" alt="The bronze moving away down Bond Street on a trailer">
+    <figcaption>Away. Bond Street, May 2026.</figcaption>
+  </figure>
+
+  <footer>
+    <p><strong>Randall&rsquo;s London Archive.</strong> Photographs and text &copy; H. Randall. Photographed from a public street.</p>
+    <p>An independent record, not authorised by or affiliated with the artist&rsquo;s estate, the City of Westminster, or the owners of the sculpture. The sculpture is in temporary storage and due to be reinstated.</p>
+    <p style="color:#4f4840">No. 001 &middot; 050 &mdash; you are early.</p>
+  </footer>
+
+</div>
+</body>
+</html>
